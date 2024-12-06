@@ -97,12 +97,14 @@ function printTraversals(tree) {
 
 // Пример входных данных
 const input = `
-5
-0 1 2
+7
+5 1 2
 1 3 4
-2 -1 -1
+2 6 -1
 3 -1 -1
 4 -1 -1
+6 -1 -1
+0 5 -1
 `;
 
 const tree = parseInput(input);
